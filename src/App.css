@@ -1,0 +1,12 @@
+.app {
+  font-size: 2rem;
+  
+}
+
+.concent {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3.125rem;
+ 
+
+}
