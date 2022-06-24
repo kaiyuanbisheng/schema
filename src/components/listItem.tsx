@@ -14,7 +14,7 @@ const ListItem: FC<Props> = ({ showData }) => {
 
         })
         return () => {
-            window.addEventListener('resize', () => {
+            window.removeEventListener('resize', () => {
                 const htmlFontSize = hetmel.clientWidth / 100
                 hetmel.style.fontSize = htmlFontSize + 'px'
             })
